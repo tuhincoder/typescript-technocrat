@@ -10,7 +10,9 @@
 
     }
 
-    const { contactNo, name: { secondName } } = user;
+    const { contactNo,
+        name: { secondName }
+    } = user;
 
     // array destructuring 
     const myFriends = ['tuhin', 'mahmud', ' hasan', 'parvej', 'hasib']
