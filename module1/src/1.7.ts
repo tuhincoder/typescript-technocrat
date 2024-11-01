@@ -40,7 +40,13 @@
 
     greetFriends('hasib', 'ab raman', 'tuhin', 'parvj')
 
+    // more rest operator
 
+    const othersFriends = (...morFriends: string[]){
+        morFriends.forEach((frie: string) => console.log(`Hi ${frie}`))
+    }
+
+    othersFriends('mahmudul', 'hasan', 'tuhin', 'tawsif')
 
 
 
