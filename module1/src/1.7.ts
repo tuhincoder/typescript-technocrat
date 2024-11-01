@@ -33,7 +33,13 @@
         ...mentor2
     }
 
-    // lear rest operator
+    // learn rest operator
+    const greetFriends = (...friends: string[]){
+        friends.forEach((friend: String) => console.log(`Hi ${friend}`))
+    }
+
+    greetFriends('hasib', 'ab raman', 'tuhin', 'parvj')
+
 
 
 
