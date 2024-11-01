@@ -49,3 +49,22 @@ let othersFriends: string[] = ['mahmudul', 'hasan', 'tuhin']
 othersFriends.push('parvej')
 
 
+// tuple
+// let coordinates: [number, string] = [30, 'tuhin']
+let coordinates: [number, number] = [40, 20]
+
+let ageName: [number, string, boolean] = [24, 'tuhin', true]
+
+ageName[0] = 22
+
+
+let friendsSircle: [string, number, string, number, string, number, boolean] = ['parvej', 25, 'hasib', 24, "tuhin", 23, true]
+
+friendsSircle[5] = 25
+
+
+
+
+
+
+
